@@ -1,0 +1,15 @@
+.MainC{
+    background-color: rgb(8, 8, 54);
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 163px);
+    grid-template-rows: repeat(3, 163px);
+    gap: 5px;
+}
+.child{
+    background-color:  #33292F;
+}
+.result{
+    color: antiquewhite;
+}
