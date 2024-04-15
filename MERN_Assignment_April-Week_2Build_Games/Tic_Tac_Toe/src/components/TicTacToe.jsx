@@ -57,6 +57,7 @@ function TicTacToe() {
 
   return (
     <>
+    <h2>Tic Tac Toe <br />(IronMan And Thor Edition)</h2>
       <div className="MainC">
         {board.map((cell, index) => (
           <div className="child" key={index} onClick={() => toggle(index)}>
@@ -86,6 +87,10 @@ function TicTacToe() {
         )}
       </div>
       <br />
+      <br />
+      <br />
+      <br />
+      <hr />
       <button className="reset-btn" onClick={resetGame}>
         Reset Game
       </button>
